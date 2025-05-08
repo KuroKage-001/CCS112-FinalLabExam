@@ -1,0 +1,163 @@
+/* Modern styles for the Patient Management System */
+
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #e4e9f0 100%);
+  min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+}
+
+/* Navbar Styles */
+.custom-navbar {
+  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(71, 118, 230, 0.2);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #3e68cc 0%, #7c48ce 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(71, 118, 230, 0.3);
+}
+
+.btn-outline-primary {
+  border-color: #4776E6;
+  color: #4776E6;
+}
+
+.btn-outline-primary:hover {
+  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+  border-color: transparent;
+}
+
+.btn-outline-danger {
+  border-color: #ff5c75;
+  color: #ff5c75;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff5c75;
+  border-color: #ff5c75;
+}
+
+/* Table Styles */
+.table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.table thead {
+  background-color: #f8f9fa;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  color: #6c757d;
+  padding: 1rem !important;
+}
+
+.table td {
+  padding: 1rem !important;
+  vertical-align: middle;
+}
+
+/* Badge Styles */
+.badge {
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e1e5eb;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(71, 118, 230, 0.25);
+  border-color: #4776E6;
+}
+
+/* Spinner */
+.spinner-border {
+  color: #4776E6;
+}
+
+/* Icons */
+.bi {
+  vertical-align: -0.125em;
+}
+
+/* Toast Styles */
+.toast-container {
+  z-index: 9999;
+}
+
+.toast {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: none !important;
+  opacity: 1 !important;
+}
+
+.toast.bg-success {
+  background: linear-gradient(135deg, #28a745, #20c997) !important;
+}
+
+.toast.bg-danger {
+  background: linear-gradient(135deg, #dc3545, #ff5c75) !important;
+}
+
+.toast.bg-info {
+  background: linear-gradient(135deg, #17a2b8, #4dabf7) !important;
+}
+
+.toast.bg-warning {
+  background: linear-gradient(135deg, #ffc107, #ffb142) !important;
+} 
